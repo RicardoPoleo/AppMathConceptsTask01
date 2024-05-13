@@ -1,9 +1,9 @@
 name: Run Python Tests on PRs
 on:
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
   push: # Adding push just for debbuging purposes ;)
-    branches: [ main ]
+    branches: [ master  ]
   workflow_dispatch: # Adding manual trigger just the same reason as the one mentioned above 
 
 
